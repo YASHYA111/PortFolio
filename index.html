@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yash Deshpande | Full Stack Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="nav-container">
+            <div class="logo">YD</div>
+            <div class="nav-links">
+                <a href="#about">01. About</a>
+                <a href="#skills">02. Skills</a>
+                <a href="#projects">03. Projects</a>
+                <a href="#education">04. Timeline</a>
+            </div>
+            <a href="#contact" class="btn" style="padding: 0.5rem 1rem; font-size: 0.9rem; margin:0;">Let's Talk</a>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header class="hero" id="about">
+        <div class="container grid-2">
+            <div class="hero-content">
+                <div style="background: var(--accent-primary); display: inline-block; padding: 5px 10px; border: 2px solid #000; margin-bottom: 1rem; font-weight: bold;">
+                    👋 HELLO WORLD
+                </div>
+                <h1 class="display-text">YASH DESHPANDE</h1>
+                <h3 style="margin-bottom: 1.5rem; color: #555;">Full Stack Developer & Computer Science Student</h3>
+                <p style="margin-bottom: 2rem; max-width: 500px; font-size: 1.1rem;">
+                    I build scalable web architectures and AI-driven applications. 
+                    Based in Baramati, Maharashtra.
+                </p>
+                <div>
+                    <a href="#projects" class="btn dark">View My Work</a>
+                    <a href="https://linkedin.com/in/yash-deshpande-350b18321" target="_blank" class="btn">LinkedIn</a>
+                </div>
+            </div>
+
+            <div class="hero-terminal">
+                <div class="terminal-header">
+                    <div class="dot red"></div>
+                    <div class="dot yellow"></div>
+                    <div class="dot green"></div>
+                    <span style="margin-left: auto; font-family: monospace; font-weight: bold;">bash</span>
+                </div>
+                <div class="terminal-body">
+                    <p><span style="color: #ff5f56;">user@yash:~$</span> cat profile.json</p>
+                    <p>{</p>
+                    <p>&nbsp;&nbsp;"role": "Developer",</p>
+                    <p>&nbsp;&nbsp;"stack": ["Java", "Python", "React"],</p>
+                    <p>&nbsp;&nbsp;"focus": "Backend & AI",</p>
+                    <p>&nbsp;&nbsp;"status": "Available"</p>
+                    <p>}</p>
+                    <p><span style="color: #ff5f56;">user@yash:~$</span> <span id="cursor">_</span></p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="section-padding">
+        <div class="container">
+            <h2 class="section-title">Technical Arsenal</h2>
+            
+            <div class="grid-3">
+                <!-- Card 1 -->
+                <div class="card">
+                    <h3>⚡ Core Languages</h3>
+                    <div style="margin-top: 1rem;">
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">PHP</span>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="card" style="background: #eef;">
+                    <h3>🌐 Web Stack</h3>
+                    <div style="margin-top: 1rem;">
+                        <span class="skill-tag">HTML5/CSS3</span>
+                        <span class="skill-tag">Spring Boot</span>
+                        <span class="skill-tag">RESTful APIs</span>
+                        <span class="skill-tag">Bootstrap</span>
+                        <span class="skill-tag">MySQL</span>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="card" style="background: #ffe;">
+                    <h3>🤖 AI & Tools</h3>
+                    <div style="margin-top: 1rem;">
+                        <span class="skill-tag">OpenCV</span>
+                        <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">OpenAI API</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Twilio API</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="section-padding" style="background: #fff; border-top: var(--border); border-bottom: var(--border);">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+
+            <!-- Project 1 -->
+            <div class="project-row">
+                <div class="project-img">
+                    <span class="project-icon">🎓</span>
+                </div>
+                <div class="project-info">
+                    <h3>BROCODE Platform</h3>
+                    <p class="tech-stack">PHP • MySQL • OpenAI API • Git</p>
+                    <p>A full-stack educational platform serving 500+ students. Features an AI-powered chatbot that reduced support queries by 60%. </p>
+                    <br>
+                    <a href="#" class="btn" style="padding: 0.5rem 1rem; font-size: 1rem;">View Details</a>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-row">
+                <div class="project-img">
+                    <span class="project-icon">🏥</span>
+                </div>
+                <div class="project-info">
+                    <h3>OPD Management</h3>
+                    <p class="tech-stack">Java Swing • JDBC • Twilio API</p>
+                    <p>Desktop healthcare software managing patient records and doctor schedules. Automated SMS notifications improved appointment adherence by 30%.</p>
+                    <br>
+                    <a href="#" class="btn" style="padding: 0.5rem 1rem; font-size: 1rem;">View Details</a>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-row">
+                <div class="project-img">
+                    <span class="project-icon">👁️</span>
+                </div>
+                <div class="project-info">
+                    <h3>Mirror Mind AI</h3>
+                    <p class="tech-stack">Python • OpenCV • NumPy</p>
+                    <p>Real-time emotion detection system using computer vision. Analyzes facial expressions to generate context-aware intelligent responses.</p>
+                    <br>
+                    <a href="#" class="btn" style="padding: 0.5rem 1rem; font-size: 1rem;">View Details</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- EDUCATION TIMELINE -->
+    <section id="education" class="section-padding">
+        <div class="container">
+            <center><h2 class="section-title">Journey So Far</h2></center>
+            <br>
+            <div class="timeline">
+                <!-- Item 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h4>B.Sc. Computer Science</h4>
+                        <p style="color: #666; font-size: 0.9rem; margin-bottom: 0.5rem;">Tuljaram Chaturchand College (Expected 2026)</p>
+                        <p>Consistently ranked Top 10 in the department. Focused on Algorithms and Software Architecture.</p>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h4>Hackathon Leader</h4>
+                        <p style="color: #666; font-size: 0.9rem; margin-bottom: 0.5rem;">Qubic Hackathon</p>
+                        <p>3rd Prize Winner. Led a technical team to design and deliver a working prototype within 24 hours.</p>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h4>IBM SkillsBuild</h4>
+                        <p style="color: #666; font-size: 0.9rem; margin-bottom: 0.5rem;">Certification</p>
+                        <p>Artificial Intelligence Professional Certificate. Mastered core AI concepts and tools.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="contact">
+        <div class="footer-grid">
+            <div>
+                <h2>Yash Deshpande</h2>
+                <p style="margin-top: 1rem; opacity: 0.7;">
+                    Building the future, one line of code at a time.
+                </p>
+            </div>
+            <div>
+                <h4>Contact</h4>
+                <a href="mailto:ydeshpande2842005@gmail.com" class="footer-link">ydeshpande2842005@gmail.com</a>
+                <a href="tel:+917821900223" class="footer-link">+91 78219 00223</a>
+                <p style="margin-top: 10px;">Baramati, Maharashtra, India</p>
+            </div>
+            <div>
+                <h4>Socials</h4>
+                <a href="https://linkedin.com/in/yash-deshpande-350b18321" target="_blank" class="footer-link">LinkedIn</a>
+                <a href="#" class="footer-link">GitHub</a>
+            </div>
+        </div>
+        <div style="text-align: center; margin-top: 4rem; padding-top: 2rem; border-top: 1px solid #333; opacity: 0.5;">
+            &copy; 2026 Yash Deshpande.
+        </div>
+    </footer>
+
+    <script src="script.js">
+        
+    </script>
+
+</body>
+</html>
+
+
